@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crowman Tech • Ofertas ao Vivo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Fonte moderna estilo tech -->
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <img src="assets/logo.png" class="logo" alt="logo">
+  <div class="top-links">
+    <a href="#" target="_blank">WhatsApp</a>
+    <a href="#" target="_blank">Telegram</a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>🔥 Ofertas ao Vivo Atualizadas em Tempo Real</h1>
+  <p>Promoções tech filtradas e validadas automaticamente.</p>
+</section>
+
+<div class="container">
+  <input id="search" class="searchBar" placeholder="Buscar produtos, lojas, cupons..." />
+  <div id="lista" class="grid"></div>
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">✖</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast">🔥 Nova promoção encontrada!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
