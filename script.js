@@ -1,4 +1,3 @@
-<script>
 window.onload = () => {
   const API = "https://crowman-promocoes-api.onrender.com/promocoes";
   let cache = [];
@@ -80,4 +79,3 @@ window.onload = () => {
   carregar();
   setInterval(carregar, 5000);
 };
-</script>
